@@ -1,0 +1,169 @@
+html {
+    height: 100%;   
+}
+
+body{
+    font-family: sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+
+.body-home {
+    background-image: url('images/peachsmokebacground.jpg');
+    background-position: center;
+}
+
+.body-meals {
+    background-image: url('images/peachback.jfif');
+    background-position: center;
+}
+
+/*========== HEADER ==========*/
+.header{
+    background-color: #C70039;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;
+        
+}
+.header span{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    width: 100px;
+}
+
+.header img {
+    width: 200px;
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+/*========== HOME PAGE ==========*/
+
+#home-logo-img {
+    width: 50px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+#home-logo-text {
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+    
+}
+
+/*========== HOME PAGE MENU ==========*/
+.home-menu-item {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;   
+}
+
+/*========== HOME PAGE ==========*/
+
+#meals {
+    padding-top: 50px;
+}
+
+/*========== MEALS PAGE MENU ==========*/
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding: 10px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #1a1a1a;
+    margin-top: -7px;
+    padding-left: 10px;
+        
+}
+
+
+/*========== RECIPE PAGE ==========*/
+
+#recipe {
+    padding-top: 50px;
+    background-image: url('images/peachsmokebacground.jpg');
+}
+
+
+/*========== RECIPE DETAILS ==========*/
+
+.recipe-detail img{
+    width: 100%;
+}
+
+.recipe-details h1{
+    font-size: 25px;
+    background-color: #C70039;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+.recipe-details h2{
+    font-size: 20px;
+    text-align: left;
+    margin:0;
+    margin-left: 10px;
+}
+
+.recipe-details-info {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.recipe-details-info p {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
